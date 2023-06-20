@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRUD Web App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .task-container {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">CRUD Web App</h1>
+    <form id="task-form" class="mt-4">
+      <div class="input-group">
+        <input type="text" id="task-input" class="form-control" placeholder="Enter a task" required>
+        <div class="input-group-append">
+          <button type="submit" class="btn btn-primary">Add Task</button>
+        </div>
+      </div>
+    </form>
+
+    <ul id="task-list" class="list-group task-container mt-4"></ul>
+  </div>
+
+  <script src="s2.js"></script>
+</body>
+</html>
